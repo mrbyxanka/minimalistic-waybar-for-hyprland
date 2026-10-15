@@ -31,7 +31,9 @@
         "custom/sep",
         "battery",
         "custom/sep",
-        "custom/lock"
+        "custom/lock",
+        "custom/sep",
+        "custom/poweroff"
     ],
 
     "network": {
@@ -44,7 +46,7 @@
         "class": "weather",
         "exec": "curl -s 'wttr.in/Vlaardingen?format=%t'",
         "format": "󰅟 {text}",
-        "interval": 300,
+        "interval": 120,
         "format-icons": ["󰖐"]
     },
     "battery": {
@@ -109,6 +111,10 @@
         "format": "{}",
         "format-en": "🇺🇸 US",
         "format-ru": "🇷🇺 RU"
+    },
+    "custom/poweroff": {
+        "format": "",
+        "on-click": "poweroff"
     }
 
 }
