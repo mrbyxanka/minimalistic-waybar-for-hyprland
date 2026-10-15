@@ -1,5 +1,5 @@
 *{
-    font-family: JetBrainsMono Nerd Font;
+    font-family: HackNerdFont;
     font-size: 10px;
     min-height: 0px;
     padding-right: 5px;
@@ -52,4 +52,7 @@ button {
 }
 #custom-sep {
     background: transparent;
+}
+#custom-poweroff {
+    color: #f73434;
 }
