@@ -7,16 +7,15 @@
     padding-bottom: 0px;
 }
 #waybar {
-    background: #101010;
+    background: transparent;
     color: #ffffff;
     margin: 2px 2px;
     border-radius: 0px;
 }
 #workspaces {
-    border-radius: 0px;
-    margin: 5px;
+
     background: #101010;
-    margin-left: 2px;
+
 }
 #workspaces button {
     color: #ffffff;
@@ -35,10 +34,12 @@ button {
     border-radius: 99px;
 }
 #custom-clock {
+    background: #101010;
     color: #ffffff;
     border-radius: 0px;
 }
 #battery {
+    background: #101010;
     color: #ffffff;
 }
 #battery.charging {
@@ -54,5 +55,30 @@ button {
     background: transparent;
 }
 #custom-poweroff {
+    background: #101010;
     color: #f73434;
+}
+#language {
+    background: #101010;
+}
+#cpu {
+    background: #101010;
+}
+#memory {
+    background: #101010;
+}
+#custom-weather {
+    background: #101010;
+}
+#custom-lock {
+    background: #101010;
+}
+#pulseaudio {
+    background: #101010;
+}
+#backlight {
+    background: #101010;
+}
+#network {
+    background: #101010;
 }
