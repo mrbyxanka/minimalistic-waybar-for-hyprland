@@ -22,6 +22,7 @@
         "tray",
         "custom/sep",
         "hyprland/language",
+        "custom/sep",
         "custom/notifications",
         "custom/sep",
         "pulseaudio",
