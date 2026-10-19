@@ -34,7 +34,8 @@
         "custom/sep",
         "custom/lock",
         "custom/sep",
-        "custom/poweroff"
+        "custom/poweroff",
+        "custom/sep"
     ],
 
     "network": {
